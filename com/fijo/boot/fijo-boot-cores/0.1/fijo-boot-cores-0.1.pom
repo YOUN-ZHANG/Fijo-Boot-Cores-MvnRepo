@@ -25,45 +25,19 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.boot</groupId>-->
-      <!--<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.boot</groupId>-->
-      <!--<artifactId>spring-boot-starter-security</artifactId>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.security</groupId>-->
-      <!--<artifactId>spring-security-acl</artifactId>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.springframework.security</groupId>-->
-      <!--<artifactId>spring-security-config</artifactId>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-    <!--<groupId>org.springframework.boot</groupId>-->
-    <!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
-    <!--</dependency>-->
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-redis</artifactId>
     </dependency>
-    <!-- Spring Session with Redis -->
-    <!--
-        https://docs.spring.io/spring-session/docs/current/reference/html5/guides/boot-redis.html
-        https://docs.spring.io/spring-session/docs/2.0.3.RELEASE/reference/html/httpsession.html#httpsession-spring-configuration
-        http://blog.didispace.com/spring-session-xjf-2/
-    -->
     <dependency>
       <groupId>org.springframework.session</groupId>
       <artifactId>spring-session-data-redis</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.springframework.security.oauth.boot</groupId>
-      <artifactId>spring-security-oauth2-autoconfigure</artifactId>
-      <version>2.0.8.RELEASE</version>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.springframework.security.oauth.boot</groupId>-->
+      <!--<artifactId>spring-security-oauth2-autoconfigure</artifactId>-->
+      <!--<version>2.0.8.RELEASE</version>-->
+    <!--</dependency>-->
     <!-- Spring Boot 2.0官方文档之 Actuator -->
     <!-- https://blog.csdn.net/alinyua/article/details/80009435 -->
     <dependency>
