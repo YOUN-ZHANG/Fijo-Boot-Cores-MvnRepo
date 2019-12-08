@@ -219,6 +219,23 @@
       <url>file://${project.build.directory}/mvn-repo</url>
     </repository>
   </distributionManagement>
+  <!--<build>-->
+    <!--<plugins>-->
+        <!--<plugin>-->
+            <!--<groupId>org.apache.maven.plugins</groupId>-->
+            <!--<artifactId>maven-compiler-plugin</artifactId>-->
+            <!--<configuration>-->
+              <!--<source>1.8</source>-->
+              <!--<target>1.8</target>-->
+              <!--<compilerArguments>-->
+                <!--<bootclasspath>C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar</bootclasspath>-->
+              <!--</compilerArguments>-->
+            <!--</configuration>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+  <!--</build>-->
+
+
 
   <!--<repositories>-->
 		<!--<repository>-->
